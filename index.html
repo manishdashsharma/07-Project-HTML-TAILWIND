@@ -9,6 +9,7 @@
 </head>
 <body>
    <div class= "m-0 p-0">
+    <!-- nav-bar -->
     <section class="flex flex-row h-13 space-between items-center bg-[#2C2C32] font-Segoe UI fixed top-0 left-0 right-0">
         <img src="./images/vscode.png" alt="vscode" class="w-6 ml-48">
         <span class="ml-2 text-lg text-white">Visual Studio Code</span>
@@ -21,31 +22,55 @@
             <li>FAQ</li>
             <li>Learn</li>
         </ul>
-        <div class="ml-48 flex h-12 ">
+        <div class="ml-52 flex h-12 ">
             <input type="text" placeholder="Search Docs" class="bg-[#525257] border-slate-700 pl-10 w-44">
             <img src="./images/search_dark.svg" alt="search" class="w-8 absolute mt-3 pl-2">  
         </div>
-
         <div class="bg-[#005BA4] box-border h-12 pt-3 p-5 flex items-center space-x-3 text-white">
             <img src="./images/download-black.svg" alt="down-arrow" class=" w-4">
             <span>Download</span>
         </div>   
     </section>
+    <!-- version-bar -->
     <section class="p-2 h-13 mt-12 bg-[#25252B] font-Segoe UI text-center">
         <h1 class="text-white"><span class="text-blue-600">Version 1.73</span> is now available! Read about the new features and fixes from October.</h1>
     </section>
-    <section class="bg-[#2C2C32] flex space-between items-center">
-        <div class="flex flex-col justify-center items-center ml-40 space-y-3">
+    <!-- vs-code image -->
+    <section class="bg-[#2C2C32] flex space-between font-Segoe UI">
+        <div class="flex flex-col items-center ml-36 mt-14 space-y-4">
             <h1 class="text-white text-5xl">Code editing.</h1>
             <h1 class="text-white text-5xl">Redefined.</h1>
-            <p class="text-[#967A32] text-xl">Free. Built on open source. Runs everywhere.</p>
-            <div class="flex">
-                <button class="bg-[#005BA4] box-border h-16 text-white p-2 text-lm w-3/4 font-medium">Download for Windows <span class>Stable Build</span></button>
+            <p class="text-[#967A32] text-lg ">Free. Built on open source. Runs everywhere.</p>
+            <div class="flex space-x-1">
+                <button class="bg-[#005BA4] box-border h-16 text-white p-2 text-lg ml-12 w-3/5 font-medium">Download for Windows <span class="font-light">Stable Build</span></button>
+                <button class="bg-[#005BA4] box-border h-16 text-white p-2 text-lm w-11 font-medium">
+                    <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>   
             </div>
-            <p>Web, Insiders edition, or other platforms</p>
-            <p>By using VS Code, you agree to its license and privacy statement.</p>
+            <p class="box-border border-solid rounded-md p-2 mr-3 text-sm bg-[#25252b] text-white ">
+                <a href="#" class="text-blue-500">Web</a>
+                , 
+                <a href="#" class="text-blue-500">Insiders edition</a>
+                , or 
+                <a href="#" class="text-blue-500">other platforms</a>
+            </p>
+            <p class="text-[12px] text-white items-center mr-4">By using VS Code, you agree to its<br><a href="#" class=" ml-3 text-[12px] text-blue-500">license and privacy statement.</a></p> 
         </div>
-        <img src="./images/home-screenshot-win-lg.png" alt="vs-code-copy" class="w-1/2">
+        <img src="./images/home-screenshot-win-lg.png" alt="vs-code-copy" class="w-1/2 mt-6">
+    </section>
+    <section class="border-box bg-white h-40">
+        <div class=" flex justify-center space-x-3">
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
+                    <path fill-rule="evenodd" d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z" clip-rule="evenodd" />
+                </svg>
+                <span>IntelliSense</span>
+            </div>
+            <div class="">
+                
+            </div>
+        </div>
     </section>
    </div> 
 </body>
