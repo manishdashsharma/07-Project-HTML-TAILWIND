@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS-CODE</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <div class= "m-0 p-0">
+   <div class= "m-0 p-0 ">
     <!-- nav-bar -->
     <section class="flex flex-row h-13 space-between items-center bg-[#2C2C32] font-Segoe UI fixed top-0 left-0 right-0">
         <img src="./images/vscode.png" alt="vscode" class="w-6 ml-48">
@@ -23,7 +24,7 @@
             <li>Learn</li>
         </ul>
         <div class="ml-52 flex h-12 ">
-            <input type="text" placeholder="Search Docs" class="bg-[#525257] border-slate-700 pl-10 w-44">
+            <input type="text" placeholder="Search Docs" class="bg-[#525257] border-slate-700 pl-10 w-44 text-white">
             <img src="./images/search_dark.svg" alt="search" class="w-8 absolute mt-3 pl-2">  
         </div>
         <div class="bg-[#005BA4] box-border h-12 pt-3 p-5 flex items-center space-x-3 text-white">
@@ -58,20 +59,180 @@
         </div>
         <img src="./images/home-screenshot-win-lg.png" alt="vs-code-copy" class="w-1/2 mt-6">
     </section>
-    <section class="border-box bg-white h-40">
+    <!-- image-bar -->
+    <section class="border-box bg-[#FFFFF] h-32 font-Segoe UI">
         <div class=" flex justify-center space-x-3">
-            <div class="">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
-                    <path fill-rule="evenodd" d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z" clip-rule="evenodd" />
-                </svg>
-                <span>IntelliSense</span>
+            <div class="h-32 w-52 bg-[#FFFFF] hover:bg-[#E3E3E3] flex flex-col items-center justify-center space-y-8 ">
+                <div class="h-10">
+                    <i class="fa-regular fa-lightbulb fa-4x"></i>
+                </div>
+                <h1 class="text-lm ">IntelliSense</h1>
             </div>
-            <div class="">
-                
+            <div class="h-32 w-52 bg-[#FFFFF] hover:bg-[#E3E3E3] flex flex-col items-center justify-center space-y-8 ">
+                <div class="h-10">
+                    <i class="fa-solid fa-bug fa-4x"></i>
+                </div>
+                <h1 class="text-lm">Run and debug</h1>
+            </div>
+            <div class="h-32 w-52 bg-[#FFFFF] hover:bg-[#E3E3E3] flex flex-col items-center justify-center space-y-8 ">
+                <div class="h-10">
+                    <i class="fa-solid fa-code-branch fa-4x"></i>
+                </div>
+                <h1 class="text-lm">Build-in Git</h1>
+            </div>
+            <div class="h-32 w-52 bg-[#FFFFF] hover:bg-[#E3E3E3] flex flex-col items-center justify-center space-y-8 ">
+                <div class="h-10">
+                    <i class="fa-solid fa-border-all fa-4x"></i>
+                </div>
+                <h1 class="text-lm">Extensions</h1>
+            </div>       
+    </section>
+    <!-- comment section -->
+    <section class="border-box bg-[#f5f5f5] h-72 pt-8">
+        <div class="flex items-center justify-center space-x-4">
+            <div class="h-40 mt-20">
+                <i class="fa-solid fa-caret-left fa-3x"></i>
+            </div>
+            <div class="border-box w-80 flex space-x-2">
+                <div class="border border-sky-500 w-20 h-20 rounded-full text-center">Hello</div>
+                <div class="flex flex-col w-52 ">
+                    <h1 class="font-bold font-Segoe UI ">Una Kravets <span class="text-xs font-light">@Una</span></h1>
+                    <p class="text-lm font-light font-Segoe UI">VS <span><a href="https://twitter.com/code" class="text-blue-700">@code</a></span> does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                </div>
+            </div>
+            <div class="border-box w-80 flex space-x-2">
+                <div class="border border-sky-500 w-20 h-20 rounded-full text-center">Hello</div>
+                <div class="flex flex-col w-52">
+                    <h1 class="font-bold font-Segoe UI">Jonathan Dunlap <span class="text-xs font-light">@jadbox</span></h1>
+                    <p class="text-lm font-light font-Segoe UI">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+                </div>
+            </div>
+            <div class="border-box w-80 flex space-x-2">
+                <div class="border border-sky-500 w-20 h-20 rounded-full text-center">Hello</div>
+                <div class="flex flex-col w-52">
+                    <h1 class="font-bold font-Segoe UI">Pavithra Kodmad <span class="text-xs font-light">@PKodmad</span></h1>
+                    <p class="text-lm font-light font-Segoe UI">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+                </div>
+            </div>
+            <div class="h-40 mt-20">
+                <i class="fa-solid fa-caret-right fa-3x"></i>
             </div>
         </div>
     </section>
+    <!-- intellisense -->
+    <section class="border-box bg-white p-14 h-80">
+        <div class="flex ml-40 mr-44">
+            <img src="./images/home-intellisense.svg" alt="IntelliSense">
+            <div class="flex flex-col ml-32">
+                <h1 class="text-4xl text-[#444444] font-light font-Segoe UI">Meet IntelliSense.</h1>
+                <p class="text-xl text-[#444444] font-light font-Segoe UI mt-10">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Run and debug -->
+    <section class="border-box bg-[#f5f5f5] p-14 h-80">
+        <div class="flex ml-40 mr-44">
+            <div class="flex flex-col mr-32">
+                <h1 class="text-3xl text-[#444444] font-light font-Segoe UI">Print statement debugging is a thing of the past.</h1>
+                <p class="text-xl text-[#444444] font-light font-Segoe UI mt-10">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            </div>
+            <img src="./images/home-debug.svg" alt="Run and debug">
+        </div>
+    </section>
+    <!-- github -->
+    <section class="border-box bg-white p-14 h-80">
+        <div class="flex ml-40 mr-44">
+            <img src="./images/home-git.svg" alt="github">
+            <div class="flex flex-col ml-32">
+                <h1 class="text-4xl text-[#444444] font-light font-Segoe UI">Git commands built-in.</h1>
+                <p class="text-xl text-[#444444] font-light font-Segoe UI mt-10">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            </div>
+        </div>
+    </section>
+    <!-- extensions -->
+    <section class="border-box bg-[#f5f5f5] p-14 h-82">
+        <div class="flex ml-40 mr-44">
+            <div class="flex flex-col mr-32">
+                <h1 class="text-4xl text-[#444444] font-light font-Segoe UI">Extensible and customizable.</h1>
+                <p class="text-xl text-[#444444] font-light font-Segoe UI mt-10">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. 
+                    <span><a href="https://code.visualstudio.com/docs/editor/extension-marketplace" class="text-blue-700">Learn more about extensions</a></span>.</p>
+            </div>
+            <img src="./images/Hundreds-of-Extensions.png" alt="extension" class="h-60 w-96">
+        </div>
+    </section>
+    <!-- azure -->
+    <section class="border-box bg-white p-14 h-80">
+        <div class="flex ml-40 mr-44">
+            <img src="./images/home-azure.svg" alt="Azure">
+            <div class="flex flex-col ml-32">
+                <h1 class="text-4xl text-[#444444] font-light font-Segoe UI">Deploy with confidence and ease</h1>
+                <p class="text-xl text-[#444444] font-light font-Segoe UI mt-10">With<span><a href="https://azure.microsoft.com/en-gb/" class="text-blue-700">Microsoft Azure</a></span>  you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing,
+                    <span><a href="https://code.visualstudio.com/docs/azure/extensions" class="text-blue-700">all with ease, all from within VS Code</a></span>.</p>
+            </div>
+        </div>
+    </section>
+    <section class="border-box bg-[#f5f5f5] h-96">
+        <div class="flex flex-col items-center p-12">
+            <div class="text-4xl font-Segoe UI">
+                <h1>VS Code for</h1>
+            </div>
+            <div class=" grid grid-rows-2 grid-flow-col gap-5 mt-10">
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-brands fa-square-js fa-lg"></i>
+                    <h1 class="ml-3 text-lg">JavaScript</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-regular fa-brackets-curly fa-lg"></i>
+                    <h1 class="ml-3 text-lg">JSON</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-brands fa-python fa-lg"></i>
+                    <h1 class="ml-3 text-lg">Python</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-solid fa-terminal fa-lg"></i>
+                    <h1 class="ml-3 text-lg">Powershell</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-brands fa-java fa-xl"></i>
+                    <h1 class="ml-3 text-lg">Java</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-light fa-code-simple fa-lg"></i>
+                    <h1 class="ml-3 text-lg">HTML/CSS</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-brands fa-markdown fa-lg"></i>
+                    <h1 class="ml-3 text-lg">Markdown</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-sharp fa-solid fa-copyright fa-lg"></i>
+                    <h1 class="ml-3 text-lg">C#</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-sharp fa-solid fa-t fa-lg"></i>
+                    <h1 class="ml-3 text-lg">TypeScript</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-brands fa-php fa-lg"></i>
+                    <h1 class="ml-3 text-lg">PHP</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-regular fa-c fa-lg"></i>
+                    <h1 class="ml-3 text-lg">C/C++</h1>
+                </div>
+                <div class="border-box w-32 flex items-center">
+                    <i class="fa-regular fa-exclamation fa-lg"></i>
+                    <h1 class="ml-3 text-lg">YAML</h1>
+                </div>  
+            </div>
+            <div class="mt-5">
+                <a href="https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Installs" class="text-xl text-blue-700">and many more languages on the Marketplace...</a>
+            </div>
+            <button class="mt-8 bg-[#0066b8] box-border h-14 pt-3 p-8 text-white font-semibold text-lg">Get Started Now</button>
+        </div>
+    </section>
+    <section></section>
    </div> 
 </body>
 </html>
